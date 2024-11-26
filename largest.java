@@ -4,14 +4,14 @@ import java.awt.event.*;
 
 class largest{
     public static void main(String ar[]){
-        new TheFrames();
+        new LargestCheckFrame();
     }
 }
 
-class TheFrames extends JFrame implements ActionListener{
+class LargestCheckFrame extends JFrame implements ActionListener{
     JTextArea A1,A2,A3;
     JButton B1;
-    TheFrames(){
+    LargestCheckFrame(){
         setLayout(null);
         setSize(400,400);
         A1=new JTextArea();

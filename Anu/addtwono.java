@@ -1,6 +1,5 @@
-import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 public  class addtwono extends JFrame implements ActionListener
 {
 	JTextField t1,t2,t3;
@@ -36,7 +35,7 @@ public  class addtwono extends JFrame implements ActionListener
 	
 	setSize(400,400);
 	setLayout(null);
-	setVisible(true);`
+	setVisible(true);
 	b.addActionListener(this);	
 }
 public void actionPerformed(ActionEvent e)
